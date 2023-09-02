@@ -1,0 +1,39 @@
+{
+  "name": "iqmosaic/admin-ui-bundle",
+  "description": "This is a UI bundle that allows for the direct uploading of documents to a data object.",
+  "license": "MIT",
+  "type": "pimcore-bundle",
+  "config": {
+    "sort-packages": true,
+    "preferred-install": {
+      "pimcore/pimcore": "source",
+      "*": "dist"
+    }
+  },
+  "require": {
+    "pimcore/pimcore": "^11.0",
+    "symfony/webpack-encore-bundle": "^1.7",
+    "cbschuld/browser.php": "^1.9.6"
+  },
+  "require-dev": {
+    "codeception/codeception": "^5.0.10",
+    "codeception/module-asserts": "^2",
+    "codeception/module-symfony":"^3.1.1",
+    "codeception/phpunit-wrapper": "^9",
+    "phpstan/phpstan": "1.10.5",
+    "phpstan/phpstan-symfony": "^1.2.20",
+    "phpunit/phpunit": "^9.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Iqm\\AdminUiBundle\\AdminBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "Iqm\\AdminUiBundle\\AdminBundle\\PimcoreAdminBundle"
+      ]
+    }
+  }
+}
