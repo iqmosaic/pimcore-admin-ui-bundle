@@ -9,9 +9,20 @@ Currently, it includes one additional UI component for document uploading.
 Upcoming components will feature a Document Gallery (with GraphQL integration) and a Video Gallery.
 
 
-# Installation 
+# Installation
 
-
+To install the module via composer, run the appropriate composer command
+```
+composer require  iqmosaic/pimcore-admin-ui-bundle:"^0.1.0" 
+```
+and enable module in the `config/bundles.php` by adding value to return array:
+```
+<?php
+return [
+    ....
+    Iqm\AdminUiBundle\IqmAdminUiBundle::class => ['all' => true],
+]
+```
 
 
 # Adding a Data Component to the Data Object class.
