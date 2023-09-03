@@ -16,9 +16,8 @@ Upcoming components will feature a Document Gallery (with GraphQL integration) a
 
 # Adding a Data Component to the Data Object class.
 
-https://github.com/iqmosaic/pimcore-admin-ui-bundle/doc/class-data-component.mp4
+https://github.com/iqmosaic/pimcore-admin-ui-bundle/assets/18754070/c250ea53-69c8-46f3-8330-83c7577981e1
+
 
 # Uploading Document to the Data Object.
-
-https://github.com/iqmosaic/pimcore-admin-ui-bundle/doc/data-object-component-upload-pdf.mp4
-
+https://github.com/iqmosaic/pimcore-admin-ui-bundle/assets/18754070/4f05e064-dec1-4a67-af02-2e9f250afdf3
