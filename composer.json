@@ -1,5 +1,5 @@
 {
-  "name": "iqmosaic/admin-ui-bundle",
+  "name": "iqmosaic/pimcore-admin-ui-bundle",
   "description": "This is a UI bundle that allows for the direct uploading of documents to a data object.",
   "license": "MIT",
   "type": "pimcore-bundle",
