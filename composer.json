@@ -26,13 +26,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Iqm\\AdminUiBundle\\AdminBundle\\": "src/"
+      "Iqm\\AdminUiBundle\\": "src/"
     }
   },
   "extra": {
     "pimcore": {
       "bundles": [
-        "Iqm\\AdminUiBundle\\AdminBundle\\PimcoreAdminBundle"
+        "Iqm\\AdminUiBundle\\AdminUiBundle"
       ]
     }
   }
